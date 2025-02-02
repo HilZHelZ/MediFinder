@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474019809727",
+    "project_id": "hospitalfindertest",
+    "storage_bucket": "hospitalfindertest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474019809727:android:caa1d291ad87006402b90a",
+        "android_client_info": {
+          "package_name": "com.example.hospitalfindertest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABsHOCNTxQCClQAU0_7hsyJo0mbnDBtfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/loho"
+        android:contentDescription="App Logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@android:color/white"/>
+
+    <!-- Buttons with square shape and spacing -->
+    <Button
+        android:id="@+id/btn_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About Us"
+        android:textSize="16sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_find_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Find a Hospital"
+        android:textSize="16sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_code_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Check In"
+        android:textSize="16sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Contact Us"
+        android:textSize="16sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
